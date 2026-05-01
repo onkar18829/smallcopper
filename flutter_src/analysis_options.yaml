@@ -1,0 +1,12 @@
+# This file configures the static analysis of Dart code for the project.
+# The analysis rules are used by the Dart language server and other tools.
+
+include: package:flutter_lints/analysis_options.yaml
+
+linter:
+  rules:
+    # Add your custom lint rules here
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - always_specify_types: false
+    - sized_box_for_whitespace: true
